@@ -11,17 +11,15 @@ CareVault AI is a single MCP server that unifies core hospital and patient workf
 Problem it solves: Patients juggle multiple hospital portals, paper reports, and phone calls just to check a wait time or share a scan with a new doctor. Hospitals, meanwhile, have no standard way to request access to a patient's history without violating their privacy.
 
 **Core capabilities:**
+<img width="1360" height="760" alt="image" src="https://github.com/user-attachments/assets/386fc5f8-aafa-44cd-bff8-e956cba014fa" />
 
 Patients can view appointments, lab reports, and medicines, and control exactly which hospitals can see their history.
-A senior citizen patient can assign a nominee, whose blood group is verified (mock Aadhaar check) before they're granted proxy access.
+A senior citizen patient can assign a nominee.
 Uploading a critical medical report automatically notifies both the patient and their doctor.
 Hospitals push live wait-time updates that patients can query in real time.
 All data access is enforced by role (patient, doctor, lab_assistant) and by explicit patient consent — a hospital can only see a patient's record if that patient has approved it, and vice versa.
 
 <img width="1360" height="760" alt="image" src="https://github.com/user-attachments/assets/1a883d00-54c8-4284-808d-f5229c302e01" />
-
-
-<img width="1360" height="600" alt="image" src="https://github.com/user-attachments/assets/edce3427-82f0-4286-b823-043d289d1745" />
 
 Why it matters: This pattern — role-based access + consent gating + critical-alert routing — generalizes to any regulated data domain, not just healthcare, and shows a production-realistic use of MCP tools, resources, and prompts together.
 
